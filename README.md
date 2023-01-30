@@ -21,8 +21,8 @@
 	DATABASE_URL=postgresql://<USER_DB>:<PASS_DB>@localhost:5432/reto_yape_dev?connect_timeout=300
 	KAFKA_BROKER=localhost:9092
 	```
-4. Run `npm start:prisma` to generate prisma dependencies.
-5. Run `npm start:dev` to start the microservice.
+4. Run `npm run start:prisma` to generate prisma dependencies.
+5. Run `npm run start:dev` to start the microservice.
 
 ## ANTI-FRAUD Microservice Setup
 
@@ -30,11 +30,9 @@
 2. Run `npm i` to install dependencies.
 3. Create the .env file and insert your values the following variables.
 	```
-	API_PORT=5001
-	DATABASE_URL=postgresql://<USER_DB>:<PASS_DB>@localhost:5432/reto_yape_dev?connect_timeout=300
 	KAFKA_BROKER=localhost:9092
 	```
-4. Run `npm start:dev` to start the microservice.
+4. Run `npm run start:dev` to start the microservice.
 
 
 # GraphQL API Documentation
