@@ -26,7 +26,7 @@
 
 ## ANTI-FRAUD Microservice Setup
 
-1 Go to directory `anti-fraud-ms`
+1. Go to directory `transaction-manager-ms`
 2. Run `npm i` to install dependencies.
 3. Create the .env file and insert your values the following variables.
 	```
